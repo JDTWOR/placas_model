@@ -3,7 +3,7 @@ import cv2
 import pytesseract
 
 # Conectar Roboflow
-rf = Roboflow(api_key="stpB56ARIMQO2pA5pclc")
+rf = Roboflow(api_key="apikey de roboflow")
 project = rf.project("license-plate-recognition-rxg4e")
 model = project.version(11).model  # ajusta la versión según Roboflow
 
